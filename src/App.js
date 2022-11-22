@@ -65,7 +65,7 @@ app.get("/revoke", async function (req, res) {
 
 app.get("/tweets", async function (req, res) {
   try {
-    const response = await client.direct messages.getDmConversationsWithParticipantIdDmEvents();
+    const response = await client.directmessages.getDmConversationsWithParticipantIdDmEvents();
   
   console.log("response", JSON.stringify(response, null, 2));
     res.send(response);

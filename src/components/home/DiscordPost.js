@@ -28,7 +28,7 @@ const DiscordPost = () => {
       <div className="container">
         <div className="discord-post d-flex flex-column">
           <div className="post-title mt-5">
-            <h1>Discord Post</h1>
+            <h1>TWITTER Post</h1>
           </div>
           <div className="post-content shadow-lg mt-5">
             {messages.map((message, index) => (
